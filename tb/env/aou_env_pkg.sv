@@ -9,7 +9,7 @@ package aou_env_pkg;
     import apb_pkg::*;
     import axi_pkg::*;
     import link_pkg::*;
-
+    `include "v_sequencer.sv"
     `include "aou_env.sv"
 
 endpackage

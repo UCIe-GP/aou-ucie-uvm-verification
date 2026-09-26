@@ -4,7 +4,6 @@
 import uvm_pkg::*;
 `include "uvm_macros.svh"
 import aou_test_pkg::*;
-`include "d2d_adapter_model"
 `include "dut_wrapper.svh"
 
 module tb_top;

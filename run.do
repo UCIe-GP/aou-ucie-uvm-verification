@@ -8,6 +8,7 @@ vlog -work work -vopt -sv -stats=none tb/agents/Link/link_pkg.sv
 vlog -work work -vopt -sv -stats=none tb/env/aou_env_pkg.sv 
 vlog -work work -vopt -sv -stats=none tb/test/aou_test_pkg.sv
 
+vlog -work work -vopt -sv -stats=none tb/top/d2d_adapter_model.sv
 vlog -work work -vopt -sv -stats=none tb/top/tb_top.sv
 
 vsim work.tb_top "+UVM_TESTNAME=aou_base_test" "+UVM_VERBOSITY=UVM_HIGH"
